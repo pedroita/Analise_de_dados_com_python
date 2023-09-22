@@ -4,7 +4,7 @@ class Pessoa:
         self.idade = idade
     def dirigir(self,veiculo: str)-> None:
         print ('Dirigindo uma (a) {}'.format(veiculo ))
-    def cantar(self):
+    def cantar(self) -> None:
         print("alalalalala")
-    def apresentar_idade(self):
+    def apresentar_idade(self) ->int :
         return self.idade
